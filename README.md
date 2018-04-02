@@ -1,4 +1,12 @@
 Windows-Graphite-Install-Notes
 ==============================
 
-Installation notes collected while installing Graphite on Windows with Tomcat
+Installation notes collected while installing Graphite on Windows
+
+###
+This was a long time ago but as I recall:
+* Change some printf arguments to be standards compliant
+* Use Jython? 
+* Remove Unix specific stuff, such as daemon and fork assumptions
+* As I recall there were some stability issues with the web interface and so greenlets were used for http instead.
+* Remove any modules that compile to a binary.  Use a cross platform version instead.
