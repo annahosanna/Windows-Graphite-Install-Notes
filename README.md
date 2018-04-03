@@ -1,5 +1,12 @@
-Windows-Graphite-Install-Notes
-==============================
+Graphite Cross Platform Install Notes
+=====================================
+
+Instructions for running Graphite on Windows is now obsolete since there are cross platform versions of carbon and whisper written in Go.
+
+```https://github.com/go-graphite```
+
+Old Windows-Graphite-Install-Notes
+==================================
 
 Installation notes collected while installing Graphite on Windows
 
